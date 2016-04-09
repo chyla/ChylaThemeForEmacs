@@ -1,2 +1,3 @@
-# emacs-github-theme
-GitHub theme for Emacs.
+# GitHub theme for Emacs
+
+GitHub-like theme for Emacs. Work in progress.

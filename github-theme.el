@@ -37,7 +37,7 @@
 
 (defvar github-default-colors-alist
   '(("github-fg+1"     . "#333333")
-    ("github-fg"       . "#333333")
+    ("github-fg"       . "#a71d5d")
     ("github-fg-1"     . "#333333")
     ("github-bg-2"     . "#ffffff") ;; homerow inactive bg
     ("github-bg-1"     . "#b0cde7") ;; selection
@@ -53,7 +53,7 @@
     ("github-red-2"    . "#333333")
     ("github-red-3"    . "#333333")
     ("github-red-4"    . "#333333")
-    ("github-orange"   . "#333333") ;; identifiers
+    ("github-orange"   . "#333333") ;; identifiers, html attributes
     ("github-yellow"   . "#a71d5d") ;; keywords (homerow active bg)
     ("github-yellow-1" . "#333333")
     ("github-yellow-2" . "#333333")
@@ -107,7 +107,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    '(button ((t (:underline t))))
    `(link ((t (:foreground ,github-yellow :underline t :weight bold))))
    `(link-visited ((t (:foreground ,github-yellow-2 :underline t :weight normal))))
-   `(default ((t (:foreground ,github-fg :background ,github-bg))))
+   `(default ((t (:foreground ,github-fg+1 :background ,github-bg))))
    `(cursor ((t (:foreground ,github-fg :background ,github-fg+1))))
    `(escape-glyph ((t (:foreground ,github-yellow :bold t))))
    `(fringe ((t (:foreground ,github-fg :background ,github-bg+1))))
@@ -163,7 +163,7 @@ Also bind `class' to ((class color) (min-colors 89))."
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,github-bg+2))))
    `(trailing-whitespace ((t (:background ,github-red))))
-   `(vertical-border ((t (:foreground ,github-fg))))
+   `(vertical-border ((t (:foreground ,github-fg+1))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,github-fg :weight normal))))  ;; weight bold (built-in keywords)
    `(font-lock-comment-face ((t (:foreground ,github-green))))

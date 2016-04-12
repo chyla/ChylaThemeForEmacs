@@ -158,12 +158,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line-inactive
      ((t (:foreground ,github-green-1
                       :background ,github-bg
-                      :box (:line-width -1 :color github-fg)))))
+                      :box (:line-width -1 :color "#d0d0d0")))))
    `(region ((,class (:background ,github-bg-1))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,github-bg+2))))
    `(trailing-whitespace ((t (:background ,github-red))))
-   `(vertical-border ((t (:foreground ,github-fg+1))))
+   `(vertical-border ((t (:foreground ,"#d0d0d0"))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,github-fg :weight normal))))  ;; weight bold (built-in keywords)
    `(font-lock-comment-face ((t (:foreground ,github-green))))
@@ -1015,8 +1015,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(sh-heredoc     ((t (:foreground ,github-yellow :bold t))))
    `(sh-quoted-exec ((t (:foreground ,github-red))))
 ;;;;; show-paren
-   `(show-paren-mismatch ((t (:foreground ,github-red+1 :background ,github-bg+3 :weight bold))))
-   `(show-paren-match ((t (:background ,github-bg+3 :weight bold))))
+   `(show-paren-mismatch ((t (:foreground ,github-fg-1 :background ,github-bg+3 :weight bold))))
+   `(show-paren-match ((t (:foreground ,github-fg-1 :background ,github-yellow :weight bold))))
 ;;;;; smart-mode-line
    ;; use (setq sml/theme nil) to enable GitHub for sml
    `(sml/global ((,class (:foreground ,github-fg :weight bold))))

@@ -21,13 +21,12 @@
 
 ;;; Commentary:
 
-;; A port of the popular Vim theme GitHub for Emacs 24, built on top
-;; of the new built-in theme support in Emacs 24.
+;; I took the Zenburn theme and modified it. Creds to Bozhidar Batsov!
 
 ;;; Credits:
 
-;; Jani Nurminen created the original theme for vim on which this port
-;; is based.
+;; Bozhidar Batsov created the Zenburn theme file which I modified to create
+;; this theme.
 
 ;;; Code:
 

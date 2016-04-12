@@ -1,9 +1,9 @@
 ;;; github-theme.el --- A low contrast color theme for Emacs.
 
-;; Copyright (C) 2011-2016 Bozhidar Batsov
+;; Copyright (C) 2011-2016 Philip Arvidsson
 
-;; Author: Bozhidar Batsov <bozhidar@batsov.com>
-;; URL: http://github.com/bbatsov/github-emacs
+;; Author: Philip Arvidsson <contact@philiparvidsson.com>
+;; URL: https://github.com/philiparvidsson/emacs-github-theme
 ;; Version: 2.3-cvs
 
 ;; This program is free software; you can redistribute it and/or modify

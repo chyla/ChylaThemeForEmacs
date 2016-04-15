@@ -60,9 +60,9 @@
     ("github-green"    . "#969896") ;; comments
     ("github-green+1"  . "#333333") ;; homerow
     ("github-green+2"  . "#969896") ;; line numbers
-    ("github-green+3"  . "#333333")
+    ("github-green+3"  . "#63a35c") ;; html tags
     ("github-green+4"  . "#0086b3") ;; constants
-    ("github-cyan"     . "#795da3") ;; function names
+    ("github-cyan"     . "#795da3") ;; function names, html attrs
     ("github-blue+1"   . "#a71d5d") ;; preprocessor keywords
     ("github-blue"     . "#333333")
     ("github-blue-1"   . "#0086b3") ;; types
@@ -1119,9 +1119,9 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(web-mode-doctype-face ((t (:inherit ,font-lock-comment-face))))
    `(web-mode-folded-face ((t (:underline t))))
    `(web-mode-function-name-face ((t (:foreground ,github-blue))))
-   `(web-mode-html-attr-name-face ((t (:foreground ,github-orange))))
+   `(web-mode-html-attr-name-face ((t (:foreground ,github-cyan))))
    `(web-mode-html-attr-value-face ((t (:inherit ,font-lock-string-face))))
-   `(web-mode-html-tag-face ((t (:foreground ,github-cyan))))
+   `(web-mode-html-tag-face ((t (:foreground ,github-green+3))))
    `(web-mode-keyword-face ((t (:inherit ,font-lock-keyword-face))))
    `(web-mode-preprocessor-face ((t (:inherit ,font-lock-preprocessor-face))))
    `(web-mode-string-face ((t (:inherit ,font-lock-string-face))))

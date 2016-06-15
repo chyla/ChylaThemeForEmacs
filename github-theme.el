@@ -238,12 +238,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(agda2-highlight-incomplete-pattern-face ((t (:foreground ,github-bg :background ,github-magenta))))
    `(agda2-highlight-typechecks-face ((t (:background ,github-red-4))))
 ;;;;; auto-complete
-   `(ac-candidate-face ((t (:background ,github-bg+3 :foreground ,github-bg-2))))
-   `(ac-selection-face ((t (:background ,github-blue-4 :foreground ,github-fg))))
-   `(popup-tip-face ((t (:background ,github-yellow-2 :foreground ,github-bg-2))))
-   `(popup-scroll-bar-foreground-face ((t (:background ,github-blue-5))))
-   `(popup-scroll-bar-background-face ((t (:background ,github-bg-1))))
-   `(popup-isearch-match ((t (:background ,github-bg :foreground ,github-fg))))
+   `(ac-candidate-face ((t (:background ,"#ffffff" :foreground ,"#333333" :box (:line-width -1 :style released-button)))))
+   `(ac-selection-face ((t (:background ,"#a71d5d" :foreground ,"#ffffff" :box (:line-width -1 :style released-button)))))
+   `(popup-tip-face ((t (:background ,"#ff0000" :foreground ,"#00ff00" ))))
+   `(popup-scroll-bar-foreground-face ((t (:background ,"#333333"))))
+   `(popup-scroll-bar-background-face ((t (:background ,"#ffffff"))))
+   `(popup-isearch-match ((t (:background ,"#ff00ff" :foreground ,"#00ffff"))))
 ;;;;; avy
    `(avy-background-face
      ((t (:foreground ,github-fg-1 :background ,github-bg :inverse-video nil))))
@@ -1015,7 +1015,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(sh-quoted-exec ((t (:foreground ,github-red))))
 ;;;;; show-paren
    `(show-paren-mismatch ((t (:foreground ,github-fg-1 :background ,github-bg+3 :weight bold))))
-   `(show-paren-match ((t (:foreground ,github-fg-1 :background ,github-yellow :weight bold))))
+   `(show-paren-match ((t (:foreground ,github-bg :background ,github-yellow :weight bold))))
 ;;;;; smart-mode-line
    ;; use (setq sml/theme nil) to enable GitHub for sml
    `(sml/global ((,class (:foreground ,github-fg :weight bold))))

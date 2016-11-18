@@ -1,13 +1,7 @@
-# GitHub theme for Emacs
+# GitHub Theme for Emacs
 
-Theme inspired by GitHub. Feedback wanted.
+This theme is inspired by the GitHub syntax highlighting colors. It attempts to stay true to the GitHub look while still looking really good in every language.
 
-Has support for HTML/CSS as well (i.e. web-mode for TypeScript).
+Has good support for HTML/CSS as well (i.e. web-mode for TypeScript/React)!
 
-## C
-
-<img alt="" src="https://raw.githubusercontent.com/philiparvidsson/emacs-github-theme/master/screenshots/c.png"></img>
-
-## Python
-
-<img alt="" src="https://raw.githubusercontent.com/philiparvidsson/emacs-github-theme/master/screenshots/python.png"></img>
+![GitHub Theme](screenshots/github-theme.png "GitHub Theme")

@@ -72,6 +72,7 @@
     ("github-blue-4"   . "#333333")
     ("github-blue-5"   . "#333333")
     ("github-black"    . "#000000")
+    ("github-gray"     . "#d0d0d0")
     ("github-magenta"  . "#333333"))
   "List of GitHub colors.
 Each element has the form (NAME . HEX).
@@ -159,12 +160,12 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line-inactive
      ((t (:foreground ,github-green-1
                       :background ,github-bg
-                      :box (:line-width -1 :color: ,github-cyan)))))
+                      :box (:line-width -1 :color ,github-gray)))))
    `(region ((,class (:background ,github-bg-1))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,github-bg+2))))
    `(trailing-whitespace ((t (:background ,github-red))))
-   `(vertical-border ((t (:foreground ,github-green))))
+   `(vertical-border ((t (:foreground ,github-gray))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,github-yellow))))
    `(font-lock-comment-face ((t (:foreground ,github-green))))
@@ -636,8 +637,6 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(helm-swoop-target-word-face ((t (:foreground ,github-yellow :background ,github-bg+2 :weight bold))))
 ;;;;; highlight-numbers
    `(highlight-numbers-number ((t (:foreground ,github-green+4))))
-;;;;; highlight-operators
-   `(highlight-operators-face ((t (:foreground ,github-fg+1))))
 ;;;;; hl-line-mode
    `(hl-line-face ((,class (:background ,github-bg-05))
                    (t :weight bold)))
@@ -647,7 +646,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(hl-sexp-face ((,class (:background ,github-bg+1))
                    (t :weight bold)))
 ;;;;; hlinum
-   `(linum-highlight-face ((t (:foreground ,github-fg-1 :background ,github-bg-05))))
+   `(linum-highlight-face ((t (:foreground ,github-green :background ,github-bg-05))))
 ;;;;; hydra
    `(hydra-face-red ((t (:foreground ,github-red-1 :background ,github-bg))))
    `(hydra-face-amaranth ((t (:foreground ,github-red-3 :background ,github-bg))))

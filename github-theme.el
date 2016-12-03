@@ -146,8 +146,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; info
    `(Info-quoted ((t (:inherit font-lock-constant-face))))
 ;;;;; isearch
-   `(isearch ((t (:foreground ,github-yellow-2 :weight bold :background ,github-bg+2))))
-   `(isearch-fail ((t (:foreground ,github-fg :background ,github-red-4))))
+   `(isearch ((t (:foreground ,github-bg :weight bold :background ,github-bg-1))))
+   `(isearch-fail ((t (:foreground ,github-gray :background ,github-bg))))
    `(lazy-highlight ((t (:foreground ,github-yellow-2 :weight bold :background ,github-bg-05))))
 
    `(menu ((t (:foreground ,github-fg :background ,github-bg))))
@@ -171,7 +171,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-comment-face ((t (:foreground ,github-green))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,github-green-1))))
    `(font-lock-constant-face ((t (:foreground ,github-green+4))))
-   `(font-lock-doc-face ((t (:foreground ,github-green+2))))
+   `(font-lock-doc-face ((t (:foreground ,github-red))))
    `(font-lock-function-name-face ((t (:foreground ,github-cyan))))
    `(font-lock-keyword-face ((t (:foreground ,github-yellow))))
    `(font-lock-negation-char-face ((t (:foreground ,github-yellow))))

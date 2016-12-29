@@ -992,8 +992,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; perspective
    `(persp-selected-face ((t (:foreground ,github-yellow-2 :inherit mode-line))))
 ;;;;; powerline
-   `(powerline-active1 ((t (:background ,github-bg-05 :inherit mode-line))))
-   `(powerline-active2 ((t (:background ,github-bg+2 :inherit mode-line))))
+   `(powerline-active1 ((t (:background ,github-red :inherit mode-line))))
+   `(powerline-active2 ((t (:background ,github-blue+1 :inherit mode-line))))
    `(powerline-inactive1 ((t (:background ,github-bg+1 :inherit mode-line-inactive))))
    `(powerline-inactive2 ((t (:background ,github-bg+3 :inherit mode-line-inactive))))
 ;;;;; proofgeneral

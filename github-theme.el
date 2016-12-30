@@ -1,10 +1,10 @@
 ;;; github-theme.el --- The GitHub color theme for Emacs.
 
-;; Copyright (C) 2011-2016 Bozhidar Batsov
+;; Copyright (C) 2016-2017 Philip Arvidsson
 
-;; Author: Bozhidar Batsov <bozhidar@batsov.com>
-;; URL: http://github.com/bbatsov/github-emacs
-;; Version: 2.4
+;; Author: Philip Arvidsson <philip@philiparvidsson.com>
+;; URL: https://github.com/philiparvidsson/emacs-github-theme
+;; Version: 1.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -21,13 +21,11 @@
 
 ;;; Commentary:
 
-;; A port of the popular Vim theme GitHub for Emacs 24, built on top
-;; of the new built-in theme support in Emacs 24.
+;; This file is based on the Zenburn theme file by Bozhidar Batsov.
 
 ;;; Credits:
 
-;; Jani Nurminen created the original theme for vim on which this port
-;; is based.
+;; Bozhidar Batsov created the Zenburn theme file which this file is based on.
 
 ;;; Code:
 
@@ -992,8 +990,8 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; perspective
    `(persp-selected-face ((t (:foreground ,github-yellow-2 :inherit mode-line))))
 ;;;;; powerline
-   `(powerline-active1 ((t (:background ,github-red :inherit mode-line))))
-   `(powerline-active2 ((t (:background ,github-blue+1 :inherit mode-line))))
+   `(powerline-active1 ((t (:background ,github-bg-05 :inherit mode-line))))
+   `(powerline-active2 ((t (:background ,github-bg+2 :inherit mode-line))))
    `(powerline-inactive1 ((t (:background ,github-bg+1 :inherit mode-line-inactive))))
    `(powerline-inactive2 ((t (:background ,github-bg+3 :inherit mode-line-inactive))))
 ;;;;; proofgeneral

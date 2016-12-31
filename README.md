@@ -1,4 +1,4 @@
-# GitHub Theme for Emacs
+# GitHub Theme
 
 This theme is inspired by the GitHub syntax highlighting colors. It attempts to stay true to the GitHub look while still looking really good in every language.
 

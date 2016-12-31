@@ -1,4 +1,4 @@
-;;; github-theme.el --- The GitHub color theme for Emacs.
+;;; github-theme.el --- The GitHub color theme.
 
 ;; Copyright (C) 2016-2017 Philip Arvidsson
 

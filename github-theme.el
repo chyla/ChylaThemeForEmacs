@@ -783,8 +783,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(magit-blame-summary ((t (:background ,github-selection :foreground ,github-text
                                           :weight bold))))
 ;;;;;; references etc
-   `(magit-dimmed         ((t (:foreground ,github-white))))
-   `(magit-hash           ((t (:foreground ,github-white))))
+   `(magit-dimmed         ((t (:foreground ,github-text))))
+   `(magit-hash           ((t (:foreground ,github-text))))
    `(magit-tag            ((t (:foreground ,github-text :weight bold))))
    `(magit-branch-remote  ((t (:foreground ,github-comment  :weight bold))))
    `(magit-branch-local   ((t (:foreground ,github-text   :weight bold))))
@@ -871,8 +871,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mu4e-cited-5-face ((t (:foreground ,github-text  :slant italic))))
    `(mu4e-cited-6-face ((t (:foreground ,github-comment :slant italic))))
    `(mu4e-cited-7-face ((t (:foreground ,github-text    :slant italic))))
-   `(mu4e-replied-face ((t (:foreground ,github-white))))
-   `(mu4e-trashed-face ((t (:foreground ,github-white :strike-through t))))
+   `(mu4e-replied-face ((t (:foreground ,github-text))))
+   `(mu4e-trashed-face ((t (:foreground ,github-text :strike-through t))))
 ;;;;; mumamo
    `(mumamo-background-chunk-major ((t (:background nil))))
    `(mumamo-background-chunk-submode1 ((t (:background ,github-selection))))

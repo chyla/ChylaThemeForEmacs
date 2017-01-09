@@ -574,7 +574,7 @@ Also bind `class' to ((class color) (min-colors 89))."
                       :underline nil
                       :weight bold
                       :box (:line-width -1 :style released-button)))))
-   `(helm-selection ((t (:background ,github-white :underline nil))))
+   `(helm-selection ((t (:background ,github-highlight :underline nil))))
    `(helm-selection-line ((t (:background ,github-white))))
    `(helm-visible-mark ((t (:foreground ,github-white :background ,github-text))))
    `(helm-candidate-number ((t (:foreground ,github-constant :background ,github-selection))))

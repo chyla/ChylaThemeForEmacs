@@ -298,11 +298,11 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ctbl:face-row-select ((t (:background ,github-function :foreground ,github-white))))
 ;;;;; diff
    `(diff-added          ((t (:background "#335533" :foreground ,github-comment))))
-   `(diff-changed        ((t (:background "#555511" :foreground ,github-text))))
-   `(diff-removed        ((t (:background "#553333" :foreground ,github-text))))
-   `(diff-refine-added   ((t (:background "#338833" :foreground ,github-constant))))
-   `(diff-refine-change  ((t (:background "#888811" :foreground ,github-keyword))))
-   `(diff-refine-removed ((t (:background "#883333" :foreground ,github-string))))
+   `(diff-changed        ((t (:background "#555511" :foreground ,github-comment))))
+   `(diff-removed        ((t (:background "#553333" :foreground ,github-comment))))
+   `(diff-refine-added   ((t (:background "#338833" :foreground ,github-comment))))
+   `(diff-refine-change  ((t (:background "#888811" :foreground ,github-text))))
+   `(diff-refine-removed ((t (:background "#883333" :foreground ,github-comment))))
    `(diff-header ((,class (:background ,github-white))
                   (t (:background ,github-text :foreground ,github-white))))
    `(diff-file-header

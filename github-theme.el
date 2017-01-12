@@ -897,6 +897,8 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(neo-vc-missing-face ((t (:foreground ,github-text))))
    `(neo-vc-ignored-face ((t (:foreground ,github-text))))
 ;;;;; org-mode
+   `(org-agenda-clocking
+     ((t (:bold t :background ,github-highlight))) t)
    `(org-agenda-date-today
      ((t (:foreground ,github-text :slant italic :weight bold))) t)
    `(org-agenda-structure

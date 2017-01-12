@@ -1222,7 +1222,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(ansi-color-names-vector [,github-white ,github-string ,github-comment ,github-keyword
                                           ,github-comment ,github-comment ,github-function ,github-comment])
 ;;;;; fill-column-indicator
-   `(fci-rule-color ,github-highlight)
+   `(fci-rule-color ,github-comment)
 ;;;;; nrepl-client
    `(nrepl-message-colors
      '(,github-string ,github-comment ,github-keyword ,github-comment ,github-constant

@@ -9,7 +9,7 @@ Installation
 
 Package.el
 ----------
-GitHub Theme is available in `MELPA <https://melpa.org>`_.
+GitHub theme is available in `MELPA <https://melpa.org>`_.
 
 You can install it with the following command:
 

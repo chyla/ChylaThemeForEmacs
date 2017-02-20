@@ -1214,7 +1214,13 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; yascroll
    `(yascroll:thumb-text-area ((t (:background ,github-selection))))
    `(yascroll:thumb-fringe ((t (:background ,github-selection :foreground ,github-selection))))
-   ))
+
+;;;;; elscreen
+  `(elscreen-tab-background-face ((t (:background ,github-keyword))))
+  `(elscreen-tab-control-face ((t (:foreground ,github-white :background ,github-keyword))))
+  `(elscreen-tab-current-screen-face ((t (:foreground ,github-black :background ,github-selection))))
+  `(elscreen-tab-other-screen-face ((t (:foreground ,github-text :background ,github-highlight))))
+  ))
 
 ;;; Theme Variables
 (github-with-color-variables

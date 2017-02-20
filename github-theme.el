@@ -309,9 +309,9 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((,class (:background ,github-white :foreground ,github-text :bold t))
       (t (:background ,github-text :foreground ,github-white :bold t))))
 ;;;;; diff-hl
-   `(diff-hl-change ((,class (:foreground ,github-text :background ,github-diff-added-highlight))))
-   `(diff-hl-delete ((,class (:foreground ,github-text :background ,github-diff-removed))))
-   `(diff-hl-insert ((,class (:foreground ,github-text :background ,github-diff-added))))
+   `(diff-hl-change ((,class (:foreground ,github-text :background ,github-diff-added))))
+   `(diff-hl-delete ((,class (:foreground ,github-text :background ,github-diff-removed-highlight))))
+   `(diff-hl-insert ((,class (:foreground ,github-text :background ,github-diff-added-highlight))))
 ;;;;; dim-autoload
    `(dim-autoload-cookie-line ((t :foreground ,github-white)))
 ;;;;; dired+

@@ -187,7 +187,7 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; ace-window
    `(aw-background-face
      ((t (:foreground ,github-text :background ,github-white :inverse-video nil))))
-   `(aw-leading-char-face ((t (:inherit aw-mode-line-face))))
+   `(aw-leading-char-face ((t (:foreground ,github-white :background ,github-keyword :weight bold))))
 ;;;;; android mode
    `(android-mode-debug-face ((t (:foreground ,github-text))))
    `(android-mode-error-face ((t (:foreground ,github-text :weight bold))))

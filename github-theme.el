@@ -46,6 +46,8 @@
     ("github-diff-removed-highlight" . "#f8cbcb")
     ("github-function"               . "#795da3")
     ("github-highlight"              . "#f8eec7")
+    ("github-header-bg"              . "#24292e")
+    ("github-header-fg"              . "#bcbdc0")
     ("github-html-tag"               . "#63a35c")
     ("github-keyword"                . "#a71d5d")
     ("github-selection"              . "#b0cde7")
@@ -131,10 +133,10 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(menu ((t (:foreground ,github-text :background ,github-white))))
    `(minibuffer-prompt ((t (:foreground ,github-keyword))))
    `(mode-line
-     ((,class (:foreground ,github-white
-                           :background ,github-keyword))
+     ((,class (:foreground ,github-header-fg
+                           :background ,github-header-bg))
       (t :inverse-video t)))
-   `(mode-line-buffer-id ((t (:foreground ,github-black :weight bold))))
+   `(mode-line-buffer-id ((t (:foreground ,github-white :weight bold))))
    `(mode-line-inactive
      ((t (:foreground ,github-comment
                       :background ,github-white

@@ -1,10 +1,10 @@
-;;; github-theme.el --- The GitHub color theme.
+;;; github-theme.el --- The GitHub color theme for Emacs.
 
 ;; Copyright (C) 2016-2017 Philip Arvidsson
 
 ;; Author: Philip Arvidsson <philip@philiparvidsson.com>
-;; URL: https://github.com/philiparvidsson/emacs-github-theme
-;; Version: 1.0
+;; URL: https://github.com/philiparvidsson/GitHub-Theme-for-Emacs
+;; Version: 1.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@
 
 ;;; Commentary:
 
-;; This file is based on the Zenburn theme file by Bozhidar Batsov.
+;; An attempt at recreating the look and feel of the GitHub website and synax highlighting in Emacs.
 
 ;;; Credits:
 

@@ -34,8 +34,7 @@
 ;;; Color Palette
 
 (defvar github-default-colors-alist
-  '(("github-black"                  . "#000000")
-    ("github-border"                 . "#d0d0d0")
+  '(("github-border"                 . "#d0d0d0")
     ("github-comment"                . "#969896")
     ("github-constant"               . "#0086b3")
     ("github-diff-added"             . "#eaffea")
@@ -55,10 +54,7 @@
     ("github-text"                   . "#333333")
     ("github-white"                  . "#ffffff"))
   "List of GitHub colors.
-Each element has the form (NAME . HEX).
-
-`+N' suffixes indicate a color is lighter.
-`-N' suffixes indicate a color is darker.")
+Each element has the form (NAME . HEX).")
 
 (defvar github-override-colors-alist
   '()
@@ -1222,7 +1218,7 @@ Also bind `class' to ((class color) (min-colors 89))."
 ;;;;; elscreen
   `(elscreen-tab-background-face ((t (:background ,github-keyword))))
   `(elscreen-tab-control-face ((t (:foreground ,github-white :background ,github-keyword))))
-  `(elscreen-tab-current-screen-face ((t (:foreground ,github-black :background ,github-selection))))
+  `(elscreen-tab-current-screen-face ((t (:foreground ,github-text :background ,github-selection))))
   `(elscreen-tab-other-screen-face ((t (:foreground ,github-text :background ,github-highlight))))
   ))
 

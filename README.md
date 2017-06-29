@@ -27,7 +27,7 @@ To enable the theme, Emacs must be instructed to load it:
 
 If you want to apply the theme automatically when Emacs starts, make sure to add the following in your `init.el` file:
 
-`(load-theme github t)`
+`(load-theme 'github t)`
 
 ## Screenshot
 ![](screenshots/github-theme.png)

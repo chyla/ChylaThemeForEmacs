@@ -18,6 +18,10 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+;;; Commentary:
+
+;; The chyla.org color theme for Emacs.
+
 ;;; Credits:
 
 ;; Philip Arvidsson created the GitHub theme file which this file is based on.

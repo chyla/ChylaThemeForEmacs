@@ -1,4 +1,4 @@
-;;; chyla-theme.el --- The chyla.org color theme.
+;;; chyla-theme.el --- chyla.org - green color theme.
 
 ;; Copyright (C) 2018 Adam Chyła
 ;; Author: Adam Chyła <adam@chyla.org> https://chyla.org/
@@ -20,7 +20,7 @@
 
 ;;; Commentary:
 
-;; The chyla.org color theme.
+;; chyla.org - green color theme.
 
 ;;; Credits:
 

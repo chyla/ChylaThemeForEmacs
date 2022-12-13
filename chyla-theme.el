@@ -144,7 +144,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(region ((,class (:background ,chyla-selection))
              (t :inverse-video t)))
    `(secondary-selection ((t (:background ,chyla-white))))
-   `(trailing-whitespace ((t (:background ,chyla-string))))
+   `(trailing-whitespace ((t (:background ,chyla-diff-removed-highlight))))
    `(vertical-border ((t (:foreground ,chyla-border))))
 ;;;;; font lock
    `(font-lock-builtin-face ((t (:foreground ,chyla-keyword))))

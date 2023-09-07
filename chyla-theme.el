@@ -84,12 +84,11 @@ Also bind `class' to ((class color) (min-colors 89))."
    'chyla
 ;;;; Built-in
 ;;;;; basic coloring
-   '(default ((t (:family '("Ubuntu Mono" monospace)))))
    '(fixed-pitch ((t nil)))
    '(button ((t (:underline t))))
    `(link ((t (:foreground ,chyla-keyword :underline t :weight bold))))
    `(link-visited ((t (:foreground ,chyla-text :underline t :weight normal))))
-   `(default ((t (:foreground ,chyla-text :background ,chyla-white))))
+   `(default ((t (:foreground ,chyla-text :background ,chyla-white :family '("Ubuntu Mono" monospace)))))
    `(cursor ((t (:foreground ,chyla-keyword :background ,chyla-keyword))))
    `(escape-glyph ((t (:foreground ,chyla-keyword :bold t))))
    `(fringe ((t (:foreground ,chyla-text :background ,chyla-white))))

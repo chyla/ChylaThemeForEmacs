@@ -35,7 +35,7 @@
 
 (defvar chyla-default-colors-alist
   '(("chyla-border"                 . "#d0d0d0")
-    ("chyla-comment"                . "#888a88")
+    ("chyla-comment"                . "#555555")
     ("chyla-constant"               . "#0086b3")
     ("chyla-diff-added"             . "#eaffea")
     ("chyla-diff-added-highlight"   . "#a6f3a6")
@@ -53,8 +53,8 @@
     ("chyla-keyword"                . "#539100")
     ("chyla-selection"              . "#d5dec4")
     ("chyla-string"                 . "#183691")
-    ("chyla-text"                   . "#333333")
-    ("chyla-white"                  . "#fafafa"))
+    ("chyla-text"                   . "#111111")
+    ("chyla-white"                  . "#fbfbfb"))
   "List of chyla.org colors.
 Each element has the form (NAME . HEX).")
 

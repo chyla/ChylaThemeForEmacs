@@ -1,6 +1,6 @@
 ;;; chyla-theme.el --- chyla.org - green color theme.
 
-;; Copyright (C) 2018 Adam Chyła
+;; Copyright (C) 2018-2023 Adam Chyła
 ;; Author: Adam Chyła <adam@chyla.org> https://chyla.org/
 ;; URL: https://github.com/chyla/ChylaThemeForEmacs
 ;; Version: 0.1

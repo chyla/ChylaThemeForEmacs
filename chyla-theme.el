@@ -30,7 +30,7 @@
 
 ;;; Code:
 
-(deftheme chyla "The chyla.org color theme")
+(deftheme chyla "The chyla.org color theme.")
 
 ;;; Color Palette
 

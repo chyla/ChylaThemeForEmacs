@@ -1,4 +1,4 @@
-;;; chyla-theme.el --- chyla.org - green color theme.
+;;; chyla-theme.el --- chyla.org - green color theme. -*- lexical-binding: nil; -*-
 
 ;; Copyright (C) 2018-2023 Adam Chyła
 ;; Author: Adam Chyła <adam@chyla.org> https://chyla.org/

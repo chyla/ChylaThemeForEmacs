@@ -1,4 +1,4 @@
-;;; chyla-theme.el --- chyla.org - green color theme. -*- lexical-binding: nil; -*-
+;;; chyla-theme.el --- Chyla.org - green color theme -*- lexical-binding: nil; -*-
 
 ;; Copyright (C) 2018-2023 Adam Chyła
 ;; Author: Adam Chyła <adam@chyla.org> https://chyla.org/
@@ -1227,8 +1227,7 @@ Also bind `class' to ((class color) (min-colors 89))."
   `(elscreen-tab-background-face ((t (:background ,chyla-keyword))))
   `(elscreen-tab-control-face ((t (:foreground ,chyla-white :background ,chyla-keyword))))
   `(elscreen-tab-current-screen-face ((t (:foreground ,chyla-text :background ,chyla-selection))))
-  `(elscreen-tab-other-screen-face ((t (:foreground ,chyla-text :background ,chyla-highlight))))
-  ))
+  `(elscreen-tab-other-screen-face ((t (:foreground ,chyla-text :background ,chyla-highlight))))))
 
 ;;; Theme Variables
 (chyla-with-color-variables
@@ -1266,8 +1265,7 @@ Also bind `class' to ((class color) (min-colors 89))."
        (340. . ,chyla-keyword)
        (360. . ,chyla-comment)))
    `(vc-annotate-very-old-color ,chyla-comment)
-   `(vc-annotate-background ,chyla-selection)
-   ))
+   `(vc-annotate-background ,chyla-selection)))
 
 ;;; Footer
 

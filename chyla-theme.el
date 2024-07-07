@@ -332,9 +332,9 @@ Also bind `class' to ((class color) (min-colors 89))."
      ((,class (:background ,chyla-white :foreground ,chyla-text :bold t))
       (t (:background ,chyla-text :foreground ,chyla-white :bold t))))
 ;;;;; diff-hl
-   `(diff-hl-change ((,class (:foreground ,chyla-text :background ,chyla-diff-added))))
-   `(diff-hl-delete ((,class (:foreground ,chyla-text :background ,chyla-diff-removed-highlight))))
-   `(diff-hl-insert ((,class (:foreground ,chyla-text :background ,chyla-diff-added-highlight))))
+   `(diff-hl-change ((,class (:foreground ,chyla-text :background ,chyla-diff-changed))))
+   `(diff-hl-delete ((,class (:foreground ,chyla-text :background ,chyla-diff-removed))))
+   `(diff-hl-insert ((,class (:foreground ,chyla-text :background ,chyla-diff-added))))
 ;;;;; dim-autoload
    `(dim-autoload-cookie-line ((t :foreground ,chyla-white)))
 ;;;;; dired+

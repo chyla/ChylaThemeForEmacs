@@ -100,6 +100,25 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(success ((t (:foreground ,chyla-comment :weight bold))))
    `(warning ((t (:foreground ,chyla-text :weight bold))))
    `(tooltip ((t (:foreground ,chyla-text :background ,chyla-white))))
+;;;;; ansi-color
+   `(ansi-color-black ((t (:foreground ,chyla-white
+                                       :background ,chyla-selection))))
+   `(ansi-color-red ((t (:foreground ,chyla-comment
+                                     :background ,chyla-comment))))
+   `(ansi-color-green ((t (:foreground ,chyla-comment
+                                       :background ,chyla-comment))))
+   `(ansi-color-yellow ((t (:foreground ,chyla-comment
+                                        :background ,chyla-keyword))))
+   `(ansi-color-blue ((t (:foreground ,chyla-constant
+                                      :background ,chyla-comment))))
+   `(ansi-color-magenta ((t (:foreground ,chyla-comment
+                                         :background ,chyla-string))))
+   `(ansi-color-cyan ((t (:foreground ,chyla-function
+                                      :background ,chyla-comment))))
+   `(ansi-color-white ((t (:foreground ,chyla-comment
+                                       :background ,chyla-comment))))
+   '(ansi-default-fg-color ((t (:inherit ansi-color-white))))
+   '(ansi-default-bg-color ((t (:inherit ansi-color-black))))
 ;;;;; compilation
    `(compilation-column-face ((t (:foreground ,chyla-keyword))))
    `(compilation-enter-directory-face ((t (:foreground ,chyla-comment))))

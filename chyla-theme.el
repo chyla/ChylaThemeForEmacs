@@ -4,6 +4,7 @@
 ;; Author: Adam Chyła <adam@chyla.org> https://chyla.org/
 ;; URL: https://github.com/chyla/ChylaThemeForEmacs
 ;; Version: 0.1
+;; Package-Requires: ((emacs "24.1"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by

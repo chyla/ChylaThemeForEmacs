@@ -55,7 +55,14 @@
     ("chyla-selection"              . "#d5dec4")
     ("chyla-string"                 . "#183691")
     ("chyla-text"                   . "#111111")
-    ("chyla-white"                  . "#fbfbfb"))
+    ("chyla-white"                  . "#fbfbfb")
+    ("chyla-red"                    . "#a32b2b")
+    ("chyla-green"                  . "#539100")
+    ("chyla-yellow"                 . "#7f8810")
+    ("chyla-blue"                   . "#183691")
+    ("chyla-magenta"                . "#80209d")
+    ("chyla-cyan"                   . "#20939d")
+    )
   "List of chyla.org colors.
 Each element has the form (NAME . HEX).")
 
@@ -101,22 +108,14 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(warning ((t (:foreground ,chyla-text :weight bold))))
    `(tooltip ((t (:foreground ,chyla-text :background ,chyla-white))))
 ;;;;; ansi-color
-   `(ansi-color-black ((t (:foreground ,chyla-white
-                                       :background ,chyla-selection))))
-   `(ansi-color-red ((t (:foreground ,chyla-comment
-                                     :background ,chyla-comment))))
-   `(ansi-color-green ((t (:foreground ,chyla-comment
-                                       :background ,chyla-comment))))
-   `(ansi-color-yellow ((t (:foreground ,chyla-comment
-                                        :background ,chyla-keyword))))
-   `(ansi-color-blue ((t (:foreground ,chyla-constant
-                                      :background ,chyla-comment))))
-   `(ansi-color-magenta ((t (:foreground ,chyla-comment
-                                         :background ,chyla-string))))
-   `(ansi-color-cyan ((t (:foreground ,chyla-function
-                                      :background ,chyla-comment))))
-   `(ansi-color-white ((t (:foreground ,chyla-comment
-                                       :background ,chyla-comment))))
+   `(ansi-color-black ((t (:foreground ,chyla-text))))
+   `(ansi-color-red ((t (:foreground ,chyla-red))))
+   `(ansi-color-green ((t (:foreground ,chyla-green))))
+   `(ansi-color-yellow ((t (:foreground ,chyla-yellow))))
+   `(ansi-color-blue ((t (:foreground ,chyla-blue))))
+   `(ansi-color-magenta ((t (:foreground ,chyla-magenta))))
+   `(ansi-color-cyan ((t (:foreground ,chyla-cyan))))
+   `(ansi-color-white ((t (:foreground ,chyla-white))))
    '(ansi-default-fg-color ((t (:inherit ansi-color-white))))
    '(ansi-default-bg-color ((t (:inherit ansi-color-black))))
 ;;;;; compilation
@@ -1139,22 +1138,14 @@ Also bind `class' to ((class color) (min-colors 89))."
                                         :background ,chyla-white
                                         :box (:line-width -1 :style released-button)))))
 ;;;;; term
-   `(term-color-black ((t (:foreground ,chyla-white
-                                       :background ,chyla-selection))))
-   `(term-color-red ((t (:foreground ,chyla-comment
-                                     :background ,chyla-comment))))
-   `(term-color-green ((t (:foreground ,chyla-comment
-                                       :background ,chyla-comment))))
-   `(term-color-yellow ((t (:foreground ,chyla-comment
-                                        :background ,chyla-keyword))))
-   `(term-color-blue ((t (:foreground ,chyla-constant
-                                      :background ,chyla-comment))))
-   `(term-color-magenta ((t (:foreground ,chyla-comment
-                                         :background ,chyla-string))))
-   `(term-color-cyan ((t (:foreground ,chyla-function
-                                      :background ,chyla-comment))))
-   `(term-color-white ((t (:foreground ,chyla-comment
-                                       :background ,chyla-comment))))
+   `(term-color-black ((t (:foreground ,chyla-text))))
+   `(term-color-red ((t (:foreground ,chyla-red))))
+   `(term-color-green ((t (:foreground ,chyla-green))))
+   `(term-color-yellow ((t (:foreground ,chyla-yellow))))
+   `(term-color-blue ((t (:foreground ,chyla-blue))))
+   `(term-color-magenta ((t (:foreground ,chyla-magenta))))
+   `(term-color-cyan ((t (:foreground ,chyla-cyan))))
+   `(term-color-white ((t (:foreground ,chyla-white))))
    '(term-default-fg-color ((t (:inherit term-color-white))))
    '(term-default-bg-color ((t (:inherit term-color-black))))
 ;;;;; undo-tree
@@ -1252,9 +1243,6 @@ Also bind `class' to ((class color) (min-colors 89))."
 (chyla-with-color-variables
   (custom-theme-set-variables
    'chyla
-;;;;; ansi-color
-   `(ansi-color-names-vector [,chyla-white ,chyla-string ,chyla-comment ,chyla-keyword
-                                          ,chyla-comment ,chyla-comment ,chyla-function ,chyla-comment])
 ;;;;; fill-column-indicator
    `(fci-rule-color ,chyla-comment)
 ;;;;; nrepl-client
